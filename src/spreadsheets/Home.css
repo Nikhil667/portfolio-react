@@ -16,7 +16,7 @@
 }
 
 .active.dash {
-    animation: dash 4s ease-in-out 1 forwards;
+    animation: dash 10s ease-in-out 1 forwards;
 }
 
 @keyframes dash {
