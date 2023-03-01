@@ -9,10 +9,10 @@ import { useState, useEffect } from "react";
 
 function App() {
 
-  const [userName, setUserName] = useState("Neha")
-  // useEffect(() => {
-  //   setUserName(window.prompt("Please enter your name"))
-  // }, [])
+  const [userName, setUserName] = useState("")
+  useEffect(() => {
+    setUserName(window.prompt("Please enter your name"))
+  }, [])
 
   return (
     <>
