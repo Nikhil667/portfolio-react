@@ -1,0 +1,62 @@
+.home-section {
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+    gap: 2em;
+}
+
+.reveal {
+    opacity: 0;
+}
+
+.reveal.active {
+    opacity: 1;
+    stroke-dasharray: 1;
+    stroke-dashoffset: 1;
+}
+
+.active.dash {
+    animation: dash 4s ease-in-out 1 forwards;
+}
+
+@keyframes dash {
+    from {
+        stroke-dashoffset: 1;
+    }
+
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+.home-img, .home-content {
+    max-width: 60rem;
+    margin: auto;
+}
+
+.home-img{
+    padding: 1em;
+}
+
+.home-content {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.home-social-links img{
+    width: 2.4em;
+    height: 2.4em;
+    margin-top: 1em;
+}
+
+.home-social-links .social{
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+
+.home-resume p{
+    margin-bottom: 0.5em;
+}

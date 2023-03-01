@@ -1,0 +1,71 @@
+:root{
+  --text-color : white;
+  --secondary-text-color : #999;
+  --background-color : #101010;
+  --primary-color: #69FFB4;
+  --secondary-color: hotpink;
+  --border-color: #555;
+}
+
+*{
+  box-sizing: border-box;  
+  margin: 0;
+  padding: 0;
+} 
+
+a{
+  color: var(--secondary-color);
+  font-size: 16px;
+}
+
+ul{
+  list-style: none;
+}
+
+body{
+  font-family: system-ui,  sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  letter-spacing: 0.225px;
+}
+
+body::-webkit-scrollbar {
+  width: 0.6em;
+}
+ 
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px black;
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  border-radius: 8px;
+}
+
+img, svg, picture{
+  display: block;
+  width: 100%;
+}
+
+section{
+  padding: 1em;
+  max-width: 75em;
+  margin: auto;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+p{
+  font-size: 18px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 1em;
+  color: inherit;
+  border-top: 1px solid var(--border-color);
+}
+

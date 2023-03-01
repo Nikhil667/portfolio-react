@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link, useMatch, useResolvedPath } from 'react-router-dom'
+import '../spreadsheets/Navbar.css'
 
 export default function Navbar() {
   return (
@@ -14,13 +15,10 @@ export default function Navbar() {
 }
 
 //while using route replace "a" tag with "Link" tag and "href" with "to"
-
 //to show active state
-
 function CustomLink({ to, children, ...props }){
   const resolvedPath = useResolvedPath(to)
   const isActive = useMatch({ path: resolvedPath.pathname, end:true })
-
   return (
     <li className={isActive ? "active" : ""}>
       <Link to={to} {...props}>
