@@ -12,6 +12,10 @@ export default function Project() {
       <div className="parent-grid">
         <div className="auto-grid">
           <Card/>
+          <Card/>
+          <Card/>
+          <Card/>
+          <Card/>
         </div>
       </div>
     </section>
