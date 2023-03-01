@@ -4,6 +4,7 @@ import github from '../assets/github.png'
 import linked from '../assets/linked.png'
 
 export default function Home({ name }) {
+
   return (
     <section className="home-section">
       <div className="home-img">
