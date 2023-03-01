@@ -38,7 +38,7 @@ export default function Home({ name }) {
         </div>
         <div className='home-resume'>
           <p className='bold'>Resume</p>
-          <a href="/" >Link to download my Resume</a>
+          <a href="https://www.youtube.com" >Link to download my Resume</a>
         </div>
       </div>
     </section>
