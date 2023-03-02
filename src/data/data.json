@@ -1,44 +1,84 @@
 {
     "frontendProjects": [
         {
-            "name": "Text Utility App",
-            "description": "Modifies, Styles and Counts words, sentences, paragraphs and characters in your text",
-            "techStack": "ReactJs, Bootstrap",
-            "githubUrl": "/",
-            "linkedUrl": "/",
-            "imgUrl": "/"
-        },
-        {
             "name": "Photo Editor App",
             "description": "Contains tools to fine-tune the brightness, contrast, saturation, and other aspects of the photo.",
             "techStack": "ReactJs, CSS(Grid, Flex)",
-            "githubUrl": "/",
-            "linkedUrl": "/",
+            "githubUrl": "https://github.com/Nikhil667/react-photo-editor",
+            "linkedUrl": "https://fastidious-profiterole-634bc2.netlify.app/",
             "imgUrl": "/"
         },
         {
             "name": "Quiz App",
             "description": "An interactive platform that provides users with a series of questions on various topics, ranging from general knowledge to specific subjects",
             "techStack": "ReactJs(Axios), CSS(Grid, Flex)",
-            "githubUrl": "/",
-            "linkedUrl": "/",
+            "githubUrl": "https://github.com/Nikhil667/React-QuizApp",
+            "linkedUrl": "https://stellar-cupcake-93a23d.netlify.app/",
+            "imgUrl": "/"
+        },
+        {
+            "name": "Text Utility App",
+            "description": "Modifies, Styles and Counts words, sentences, paragraphs and characters in your text",
+            "techStack": "ReactJs, Bootstrap5",
+            "githubUrl": "https://github.com/Nikhil667/project-textUtility",
+            "linkedUrl": "https://symphonious-maamoul-0e7a64.netlify.app/",
+            "imgUrl": "/"
+        },
+        {
+            "name": "Burger Ordering App (Only For Mobile)",
+            "description": "An application that allows users to order their favorite burgers from a menu provided by a restaurant. Users can browse the menu, select their desired items, and make payments through the app by scanning the QRCode",
+            "techStack": "HTML5, Vanilla Javascript, CSS(Grid, Flex)",
+            "githubUrl": "https://github.com/Nikhil667/Project-Split",
+            "linkedUrl": "https://preeminent-boba-a7c8ea.netlify.app/",
+            "imgUrl": "/"
+        },
+        {
+            "name": "News Daily App",
+            "description": "The daily news app is an application that provides users with up-to-date news articles and stories from various sources.",
+            "techStack": "ReactJs(Fetch), Bootstrap5",
+            "githubUrl": "https://github.com/Nikhil667/project-newsapp",
+            "linkedUrl": "https://glittery-mandazi-10f408.netlify.app/",
+            "imgUrl": "/"
+        },
+        {
+            "name": "COSMOS - Space Website",
+            "description": "The daily news app is an application that provides users with up-to-date news articles and stories from various sources.",
+            "techStack": "HTML5, CSS3, Vanilla Javascript",
+            "githubUrl": "https://github.com/Nikhil667/FetchSpace",
+            "linkedUrl": "https://kaleidoscopic-squirrel-2b1aef.netlify.app/",
             "imgUrl": "/"
         }
     ],
     "backendProjects": [
         {
-            "name": "Text Utility App",
-            "description": "Modifies, Styles and Counts words, sentences, paragraphs and characters in your text",
-            "techStack": "ReactJs, Bootstrap",
-            "githubUrl": "/",
+            "name": "Authentication Using Firebase",
+            "description": "A user authentication app using Firebase is a mobile application that integrates Firebase Authentication, a secure and easy-to-use service that allows users to sign in to the app using email/password.",
+            "techStack": "NodeJs, ExpressJs, Firebase, Bootstrap5",
+            "githubUrl": "https://github.com/Nikhil667/react-authentication-firebase-routing",
             "linkedUrl": "/",
             "imgUrl": "/"
         },
         {
-            "name": "Photo Editor App",
-            "description": "Contains tools to fine-tune the brightness, contrast, saturation, and other aspects of the photo.",
-            "techStack": "ReactJs, CSS(Grid, Flex)",
-            "githubUrl": "/",
+            "name": "User Authentication App",
+            "description": "App that provides a secure and convenient way for users to log in to their accounts by verifying their identity",
+            "techStack": "NodeJs, ExpressJs, Bcrypt",
+            "githubUrl": "https://github.com/Nikhil667/UserAuthentication",
+            "linkedUrl": "/",
+            "imgUrl": "/"
+        },
+        {
+            "name": "JWT App",
+            "description": "The JWT app provides a simple and standardized way to implement token-based authentication and authorization in web development. JWTs are encoded pieces of JSON data that can be securely transmitted between client and server to validate a user's identity and permissions",
+            "techStack": "NodeJs, ExpressJs, Crypto",
+            "githubUrl": "https://github.com/Nikhil667/JWT",
+            "linkedUrl": "/",
+            "imgUrl": "/"
+        },
+        {
+            "name": "BookBerry - Library App",
+            "description": "A library app with book and author management capabilities allows users to add new books to the library's collection and retrieve information about existing books and their authors. Users can search for books by title, author, or category, and view details such as publication date, summary, and reviews.",
+            "techStack": "NodeJs, ExpressJs, Bcrypt",
+            "githubUrl": "https://github.com/Nikhil667/BookBerry",
             "linkedUrl": "/",
             "imgUrl": "/"
         }

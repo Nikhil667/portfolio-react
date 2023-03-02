@@ -8,18 +8,30 @@ export default function Project() {
   console.log(data)
 
   return (
-    <section className='project-section'>
+    <section className="project-section">
       <div className="project-content">
         <h2>Projects</h2>
-        <p>From Concept to Deployment <br /> Delivering Customized Web Solutions Tailored to Meet Your Needs</p>
+        <p>
+          From Concept to Deployment <br /> Delivering Customized Web Solutions
+          Tailored to Meet Your Needs
+        </p>
       </div>
+      <p className="project-title bold">"Frontend Projects"</p>
       <div className="parent-grid">
         <div className="auto-grid">
           {data.frontendProjects.map((ele, index) => {
-            return <Card key={index} props={ele}/>
-          })} 
+            return <Card key={index} props={ele} />;
+          })}
+        </div>
+      </div>
+      <p className="project-title bold">"Backend Projects"</p>
+      <div className="parent-grid">
+        <div className="auto-grid">
+          {data.backendProjects.map((ele, index) => {
+            return <Card key={index} props={ele} />;
+          })}
         </div>
       </div>
     </section>
-  )
+  );
 }
