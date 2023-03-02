@@ -24,11 +24,10 @@ export default function Home({ name }) {
         </svg>
       </div>
       <div className="home-content">
-        <p className='home-description'>
-          <span className='bold'>Welcome to my portfolio </span><span className='bold' style={{ color: "#69FFB4" }}>{name}!</span> <br /><br /> Here, you'll find a collection of my work and
-          experiences in various fields. <br /> From graphic design to web development, <br /> I have a passion for creating visually stunning and functional
-          projects that leave a lasting impact.
-        </p>
+        <p><span className='bold'>Welcome to my portfolio, </span><span className='bold' style={{ color: "#69FFB4" }}>{name && name.charAt(0).toUpperCase() + name.slice(1)}!</span></p>
+        <p>I'm, Nikhil (Web Developer)</p>
+        <p>Currently working on ReactJs (Frontend), ExpressJs (Backend)</p>
+        <p> Here, you'll find a collection of my work and experiences in various fields. <br /> From graphic design to web development. <br /> I have a passion for creating visually stunning and functional projects that leave a lasting impact.</p>
         <div className='home-social-links'>
           <p className='bold'>Social Media</p>
           <div className='social'>

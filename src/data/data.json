@@ -1,0 +1,46 @@
+{
+    "frontendProjects": [
+        {
+            "name": "Text Utility App",
+            "description": "Modifies, Styles and Counts words, sentences, paragraphs and characters in your text",
+            "techStack": "ReactJs, Bootstrap",
+            "githubUrl": "/",
+            "linkedUrl": "/",
+            "imgUrl": "/"
+        },
+        {
+            "name": "Photo Editor App",
+            "description": "Contains tools to fine-tune the brightness, contrast, saturation, and other aspects of the photo.",
+            "techStack": "ReactJs, CSS(Grid, Flex)",
+            "githubUrl": "/",
+            "linkedUrl": "/",
+            "imgUrl": "/"
+        },
+        {
+            "name": "Quiz App",
+            "description": "An interactive platform that provides users with a series of questions on various topics, ranging from general knowledge to specific subjects",
+            "techStack": "ReactJs(Axios), CSS(Grid, Flex)",
+            "githubUrl": "/",
+            "linkedUrl": "/",
+            "imgUrl": "/"
+        }
+    ],
+    "backendProjects": [
+        {
+            "name": "Text Utility App",
+            "description": "Modifies, Styles and Counts words, sentences, paragraphs and characters in your text",
+            "techStack": "ReactJs, Bootstrap",
+            "githubUrl": "/",
+            "linkedUrl": "/",
+            "imgUrl": "/"
+        },
+        {
+            "name": "Photo Editor App",
+            "description": "Contains tools to fine-tune the brightness, contrast, saturation, and other aspects of the photo.",
+            "techStack": "ReactJs, CSS(Grid, Flex)",
+            "githubUrl": "/",
+            "linkedUrl": "/",
+            "imgUrl": "/"
+        }
+    ]
+}

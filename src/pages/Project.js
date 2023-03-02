@@ -1,8 +1,12 @@
-import React from 'react'
+import React  from 'react'
 import '../spreadsheets/Project.css'
 import Card from '../components/Card'
+import data from '../data/data.json'
 
 export default function Project() {
+
+  console.log(data)
+
   return (
     <section className='project-section'>
       <div className="project-content">
@@ -11,11 +15,9 @@ export default function Project() {
       </div>
       <div className="parent-grid">
         <div className="auto-grid">
-          <Card/>
-          <Card/>
-          <Card/>
-          <Card/>
-          <Card/>
+          {data.frontendProjects.map((ele, index) => {
+            return <Card key={index} props={ele}/>
+          })} 
         </div>
       </div>
     </section>

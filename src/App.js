@@ -1,18 +1,18 @@
 import { Route, Routes } from "react-router-dom";
-import Navbar from "./Navbar";
-import Home from '../pages/Home'
-import Project from '../pages/Project'
-import Blog from '../pages/Blog'
-import Footer from './Footer'
-import '../spreadsheets/App.css'
+import Navbar from "./components/Navbar";
+import Home from './pages/Home'
+import Project from './pages/Project'
+import Blog from './pages/Blog'
+import Footer from './components/Footer'
+import './spreadsheets/App.css'
 import { useState, useEffect } from "react";
 
 function App() {
 
-  const [userName, setUserName] = useState("")
-  useEffect(() => {
-    setUserName(window.prompt("Please enter your name"))
-  }, [])
+  const [userName, setUserName] = useState('User')
+  // useEffect(() => {
+  //   setUserName(window.prompt("Please enter your name"))
+  // }, [])
 
   return (
     <>
