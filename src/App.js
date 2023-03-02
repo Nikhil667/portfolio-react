@@ -5,21 +5,21 @@ import Project from './pages/Project'
 import Blog from './pages/Blog'
 import Footer from './components/Footer'
 import './spreadsheets/App.css'
-import { useState, useEffect } from "react";
+//import { useState } from "react";
 
 function App() {
 
-  const [userName, setUserName] = useState('User')
-  useEffect(() => {
-    setUserName(window.prompt("Please enter your name"))
-  }, [])
+  //const [userName, setUserName] = useState('User')
+  // useEffect(() => {
+  //   setUserName(window.prompt("Please enter your name"))
+  // }, [])
 
   return (
     <>
       <Navbar/>
       <div className="container">
         <Routes>
-          <Route path="/" element={<Home name={userName} />} />
+          <Route path="/" element={<Home />} />
           <Route path="/project" element={<Project />}/>
           <Route path="/blog" element={<Blog />}/>
         </Routes>

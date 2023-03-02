@@ -59,6 +59,14 @@
             "imgUrl": "/"
         },
         {
+            "name": "BookBerry - Library App",
+            "description": "A library app with book and author management capabilities allows users to add new books to the library's collection and retrieve information about existing books and their authors. Users can search for books by title, author, or category, and view details such as publication date, summary, and reviews.",
+            "techStack": "NodeJs, ExpressJs, Bcrypt, Bootstrap5",
+            "githubUrl": "https://github.com/Nikhil667/BookBerry",
+            "linkedUrl": "/",
+            "imgUrl": "/"
+        },
+        {
             "name": "User Authentication App",
             "description": "App that provides a secure and convenient way for users to log in to their accounts by verifying their identity",
             "techStack": "NodeJs, ExpressJs, Bcrypt",
@@ -73,14 +81,6 @@
             "githubUrl": "https://github.com/Nikhil667/JWT",
             "linkedUrl": "/",
             "imgUrl": "/"
-        },
-        {
-            "name": "BookBerry - Library App",
-            "description": "A library app with book and author management capabilities allows users to add new books to the library's collection and retrieve information about existing books and their authors. Users can search for books by title, author, or category, and view details such as publication date, summary, and reviews.",
-            "techStack": "NodeJs, ExpressJs, Bcrypt",
-            "githubUrl": "https://github.com/Nikhil667/BookBerry",
-            "linkedUrl": "/",
-            "imgUrl": "/"
-        }
+        }   
     ]
 }
