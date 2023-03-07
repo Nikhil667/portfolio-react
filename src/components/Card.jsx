@@ -5,7 +5,8 @@ export default function Card({props}) {
 
   return (
     <div className="card ">
-    <img src={sample} alt="sample" />
+    {/* <div style={{height: "10em", backgroundColor: `${props.background}` }} >{props.imgUrl}</div> */}
+    <img src={sample} alt="/" />
     <div className="card-item">
       <p><span className='secondary-color'>Name : </span>{props.name}</p>
       <p><span className='secondary-color'>Description : </span>{props.description}</p>

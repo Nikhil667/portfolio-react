@@ -1,71 +1,98 @@
-:root{
-  --text-color : white;
-  --secondary-text-color : #999;
-  --background-color : #101010;
+:root {
+  --text-color: white;
+  --secondary-text-color: #999;
+  --background-color: #101010;
   --primary-color: #69FFB4;
   --secondary-color: hotpink;
   --border-color: #555;
+  /* --text-color: black;
+  --secondary-text-color: #777;
+  --background-color: white;
+  --primary-color: black;
+  --secondary-color: purple;
+  --border-color: #9a9a9a; */
+  --border-radius: 4px;
+  --font-family-primary: 'Space Mono', monospace;
+  --font-family-secondary: system-ui;
 }
 
-*{
-  box-sizing: border-box;  
+* {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-} 
-
-a{
-  color: var(--secondary-color);
-  font-size: 16px;
 }
 
-ul{
-  list-style: none;
-}
-
-body{
-  font-family: system-ui,  sans-serif;
-  background-color: var(--background-color);
+body {
+  font-family: var(--font-family-primary);
+  background-color: #101010;
+  background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.03'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
   color: var(--text-color);
-  letter-spacing: 0.225px;
+  letter-spacing: 0.325px;
+  outline: 1px solid var(--border-color);
+  margin: 0.5rem;
+  border-radius: var(--border-radius);
+  overflow-x: hidden;
 }
 
 body::-webkit-scrollbar {
   width: 0.6em;
 }
- 
+
 body::-webkit-scrollbar-track {
   box-shadow: inset 0 0 6px black;
 }
- 
+
 body::-webkit-scrollbar-thumb {
   background-color: darkgrey;
-  border-radius: 8px;
+  border-radius: var(--border-radius);
 }
 
-img, svg, picture{
+a {
+  color: var(--secondary-color);
+  font-size: 16px;
+}
+
+ul {
+  list-style: none;
+}
+
+img, svg, picture {
   display: block;
   width: 100%;
 }
 
-section{
+section {
   padding: 1em;
   max-width: 75em;
   margin: auto;
 }
 
-.bold{
+.bold {
   font-weight: bold;
 }
 
-p{
+p {
+  font-family: var(--font-family-secondary);
   font-size: 18px;
 }
 
 footer {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
   padding: 1em;
+  flex-wrap: wrap;
   color: inherit;
   border-top: 1px solid var(--border-color);
+  background-color: var(--background-color);
 }
 
+footer .social {
+  display: flex;
+  gap: 1em;
+}
+
+footer .social img {
+  width: 2em;
+  height: 2em;
+}

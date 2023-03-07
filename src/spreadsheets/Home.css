@@ -16,7 +16,7 @@
 }
 
 .active.dash {
-    animation: dash 10s ease-in-out 1 forwards;
+    animation: dash 5s ease-in-out 1 forwards;
 }
 
 @keyframes dash {
@@ -38,25 +38,62 @@
     padding: 1em;
 }
 
+/* .design-top{
+    position: absolute;
+    display: flex;
+    place-content: center;
+    top: 5em;
+    left: 10em;
+    gap: 1em;
+} */
+
 .home-content {
-    text-align: center;
+    text-align: left;
     display: flex;
     flex-direction: column;
-    gap: 2em;
-}
-
-.home-social-links img{
-    width: 2.4em;
-    height: 2.4em;
-    margin-top: 1em;
-}
-
-.home-social-links .social{
-    display: flex;
-    justify-content: center;
     gap: 2em;
 }
 
 .home-resume p{
     margin-bottom: 0.5em;
 }
+
+#blob {
+    background-color: white;
+    height: 20vmax;
+    aspect-ratio: 1;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    translate: -50% -50%;
+    border-radius: 50%;
+    background: linear-gradient(to right,
+        var(--primary-color),
+        purple);
+    animation: rotate 14s infinite;
+    opacity: 1;
+    z-index: -2;
+  }
+  
+  #blur {
+    height: 90%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    backdrop-filter: blur(8vmax);
+  }
+
+  @keyframes rotate {
+    from {
+      rotate: 0deg;
+    }
+  
+    50% {
+      scale: 1 1.5;
+    }
+  
+    to {
+      rotate: 360deg;
+    }
+  }
+

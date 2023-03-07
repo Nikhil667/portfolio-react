@@ -3,9 +3,15 @@ import { Link, useMatch, useResolvedPath } from 'react-router-dom'
 import '../spreadsheets/Navbar.css'
 
 export default function Navbar() {
+
+  // const stylea = {
+  //   position: 'absolute',
+  //   top: '12rem'
+  // }
+
   return (
     <nav className='nav'>
-        <Link to="/" className='site-title'>Nikhil.</Link>
+        <Link to="/"><span className='site-logo'>Nikhil.</span></Link>
         <ul>
             <CustomLink to="/project">Projects</CustomLink>
             <CustomLink to="/blog">Blogs</CustomLink>
