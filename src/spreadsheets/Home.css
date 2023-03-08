@@ -30,7 +30,7 @@
 }
 
 .home-img, .home-content {
-    max-width: 60rem;
+    max-width: 60em;
     margin: auto;
 }
 
@@ -58,6 +58,15 @@
     margin-bottom: 0.5em;
 }
 
+.home-title{
+    font-size: clamp(4rem, 2vw, 6rem);
+}
+
+.home-subtitle{
+    font-size: 1.5rem;
+    margin-top: 1.5em;
+}
+
 #blob {
     background-color: white;
     height: 20vmax;
@@ -68,10 +77,10 @@
     translate: -50% -50%;
     border-radius: 50%;
     background: linear-gradient(to right,
-        var(--primary-color),
-        purple);
+        var(--secondary-color),
+        var(--tertiary-text-color));
     animation: rotate 14s infinite;
-    opacity: 1;
+    opacity: 0.8;
     z-index: -2;
   }
   

@@ -5,7 +5,6 @@ import Project from './pages/Project'
 import Blog from './pages/Blog'
 import Footer from './components/Footer'
 import './spreadsheets/App.css'
-//import { useState } from "react";
 
 function App() {
 

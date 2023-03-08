@@ -5,7 +5,7 @@
 }
 
 .project-section .project-title{
-    color: var(--primary-color);
+    color: var(--tertiary-text-color);
     text-align: center;
     font-style: italic;
 }
