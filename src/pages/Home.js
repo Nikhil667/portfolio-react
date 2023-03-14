@@ -6,8 +6,8 @@ export default function Home() {
 
   return (
     <>
-      <div id="blob"></div>
-      <div id="blur"></div>
+      {/* <div id="blob"></div>
+      <div id="blur"></div> */}
       <section className="home-section">
         <div className="home-img">
           <svg
