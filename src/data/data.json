@@ -1,4 +1,16 @@
 {
+
+    "fullStackProjects":[
+        {
+            "name": "E-Commerce Website",
+            "description": "It is an online platform that offers a wide range of electronic gadgets and accessories. It provides a convenient and user-friendly interface for customers to browse, select, and purchase products online",
+            "techStack": "ReactJs, Bootstrap5, NodeJs, ExpressJs, Auth(including Google Auth), Stripe(Payment)",
+            "githubUrl": "https://github.com/Nikhil667/frontend-full-stack",
+            "githubUrlBackend": "https://github.com/Nikhil667/full-stack-app",
+            "linkedUrl": "https://elaborate-fenglisu-317a3a.netlify.app/",
+            "imgUrl": "/"
+        }
+    ],
     "frontendProjects": [
         {
             "name": "Photo Editor App",
@@ -42,7 +54,7 @@
         },
         {
             "name": "COSMOS - Space Website",
-            "description": "The daily news app is an application that provides users with up-to-date news articles and stories from various sources.",
+            "description": "The website aims to educate and inform its audience about the wonders of space and ou Solar System",
             "techStack": "HTML5, CSS3, Vanilla Javascript",
             "githubUrl": "https://github.com/Nikhil667/FetchSpace",
             "linkedUrl": "https://kaleidoscopic-squirrel-2b1aef.netlify.app/",

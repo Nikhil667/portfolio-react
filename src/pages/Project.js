@@ -27,6 +27,14 @@ export default function Project() {
           })}
         </div>
       </div>
+      <p className="project-title bold">"Full Stack Project"</p>
+      <div className="parent-grid">
+        <div className="auto-grid">
+          {data.fullStackProjects.map((ele, index) => {
+            return <Card key={index} props={ele} />;
+          })}
+        </div>
+      </div>
     </section>
   );
 }

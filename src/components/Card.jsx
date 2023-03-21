@@ -13,6 +13,7 @@ export default function Card({props}) {
       <p><span className='secondary-color'>Tech Stack : </span>{props.techStack}</p>
       <div >
         <a href={props.githubUrl}>Github Link</a>
+        {props.githubUrlBackend && <a href={props.githubUrlBackend}>Github Backend Link</a>}
         <a href={props.linkedUrl}>Website Link</a>
       </div>
     </div>
