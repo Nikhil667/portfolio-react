@@ -4,6 +4,21 @@ import { Link } from 'react-router-dom';
 
 export default function Home() {
 
+  const downloadPDF = () => {
+    // using Java Script method to get PDF file
+    fetch('Resume_Nikhil.pdf').then(response => {
+        response.blob().then(blob => {
+            // Creating new object of PDF file
+            const fileURL = window.URL.createObjectURL(blob);
+            // Setting various property values
+            let alink = document.createElement('a');
+            alink.href = fileURL;
+            alink.download = 'Resume_Nikhil.pdf';
+            alink.click();
+        })
+    })
+}
+
   return (
     <>
       {/* <div id="blob"></div>
@@ -41,7 +56,7 @@ export default function Home() {
           <p>As a full-stack developer with no prior professional experience, I am eager to showcase my passion for web development and my commitment to continuous learning. <br /><br /> Through self-directed study and personal projects, I have acquired a strong foundation in programming languages such as HTML, CSS, and JavaScript as well as experience using frameworks such as React and Node.js.</p>
         <div className='home-resume'>
           <p className='bold'>Resume</p>
-          <Link to="https://www.youtube.com" >Link to download my Resume</Link>
+          <Link onClick={downloadPDF} >Link to download my Resume</Link>
         </div>
         </div>
       </section>
