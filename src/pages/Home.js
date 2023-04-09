@@ -13,7 +13,7 @@ export default function Home() {
             // Setting various property values
             let alink = document.createElement('a');
             alink.href = fileURL;
-            alink.download = 'Resume_Nikhil.pdf';
+            alink.download = 'NikhilMimroth_Resume_2023.pdf';
             alink.click();
         })
     })
