@@ -6,7 +6,7 @@ export default function Home() {
 
   const downloadPDF = () => {
     // using Java Script method to get PDF file
-    fetch('Resume_Nikhil.pdf').then(response => {
+    fetch('NikhilMimroth_Resume_2023.pdf').then(response => {
         response.blob().then(blob => {
             // Creating new object of PDF file
             const fileURL = window.URL.createObjectURL(blob);
