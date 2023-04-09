@@ -53,7 +53,7 @@ export default function Home() {
               Full Stack Developer
             </h1>
           </div>
-          <p>As a full-stack developer, I am eager to showcase my passion for web development and my commitment to continuous learning. <br /><br /> Through self-directed study and personal projects, I have acquired a strong foundation in programming languages such as HTML, CSS, and JavaScript as well as experience using frameworks such as React and Node.js.</p>
+          <p>As a beginner full-stack developer, I'm excited to showcase my passion for web development and my commitment to continuous learning.  <br /><br /> I have experience using HTML, CSS, and JavaScript, and have also worked with React and Node.js frameworks. I've gained this knowledge through self-directed study and personal projects.</p>
         <div className='home-resume'>
           <p className='bold'>Resume</p>
           <Link onClick={downloadPDF} >Link to download my Resume</Link>
