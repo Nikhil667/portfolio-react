@@ -54,7 +54,7 @@ export default function Home() {
             </h1>
           </div>
           <p>As a beginner full-stack developer, I'm excited to showcase my passion for web development and my commitment to continuous learning.  <br /><br /> I have experience using HTML, CSS, and JavaScript, and have also worked with React and Node.js frameworks. I've gained this knowledge through self-directed study and personal projects.</p>
-          <p>Filling the gap between graphical design and technical implementation</p>
+          <p>Filling the gap between graphical design and technical implementation.</p>
         <div className='home-resume'>
           <p className='bold'>Resume</p>
           <Link onClick={downloadPDF} >Link to download my Resume</Link>
