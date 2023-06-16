@@ -49,6 +49,8 @@
 
 .card img{
     border-radius: var(--border-radius);
+    height: 14rem;
+    object-fit: cover;
 }
 
 .card-item{

@@ -1,7 +1,7 @@
 import React  from 'react'
 import '../spreadsheets/Project.css'
 import Card from '../components/Card'
-import data from '../data/data.json'
+import data from '../data/data.json';
 
 export default function Project() {
   return (
@@ -31,7 +31,7 @@ export default function Project() {
       <div className="parent-grid">
         <div className="auto-grid">
           {data.fullStackProjects.map((ele, index) => {
-            return <Card key={index} props={ele} />;
+            return <Card key={index} props={ele} />
           })}
         </div>
       </div>

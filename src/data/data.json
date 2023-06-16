@@ -8,7 +8,7 @@
             "githubUrl": "https://github.com/Nikhil667/frontend-full-stack",
             "githubUrlBackend": "https://github.com/Nikhil667/full-stack-app",
             "linkedUrl": "https://elaborate-fenglisu-317a3a.netlify.app/",
-            "imgUrl": "/"
+            "imgUrl": "./assets/ecom.png"
         }
     ],
     "frontendProjects": [
@@ -18,7 +18,7 @@
             "techStack": "ReactJs, CSS(Grid, Flex)",
             "githubUrl": "https://github.com/Nikhil667/react-photo-editor",
             "linkedUrl": "https://fastidious-profiterole-634bc2.netlify.app/",
-            "imgUrl": "/"
+            "imgUrl": "../assets/photoeditor.jpg"
         },
         {
             "name": "Quiz App",
@@ -26,7 +26,7 @@
             "techStack": "ReactJs(Axios), CSS(Grid, Flex)",
             "githubUrl": "https://github.com/Nikhil667/React-QuizApp",
             "linkedUrl": "https://stellar-cupcake-93a23d.netlify.app/",
-            "imgUrl": "/"
+            "imgUrl": "./assets/quiz.jpg"
         },
         {
             "name": "Text Utility App",
@@ -34,7 +34,7 @@
             "techStack": "ReactJs, Bootstrap5",
             "githubUrl": "https://github.com/Nikhil667/project-textUtility",
             "linkedUrl": "https://symphonious-maamoul-0e7a64.netlify.app/",
-            "imgUrl": "/"
+            "imgUrl": "./assets/text.jpeg"
         },
         {
             "name": "Burger Ordering App (Only For Mobile)",
@@ -42,7 +42,7 @@
             "techStack": "HTML5, Vanilla Javascript, CSS(Grid, Flex)",
             "githubUrl": "https://github.com/Nikhil667/Project-Split",
             "linkedUrl": "https://preeminent-boba-a7c8ea.netlify.app/",
-            "imgUrl": "/"
+            "imgUrl": "./assets/burger.png"
         },
         {
             "name": "News Daily App",
@@ -50,7 +50,7 @@
             "techStack": "ReactJs(Fetch), Bootstrap5",
             "githubUrl": "https://github.com/Nikhil667/project-newsapp",
             "linkedUrl": "https://glittery-mandazi-10f408.netlify.app/",
-            "imgUrl": "/"
+            "imgUrl": "./assets/news.jpg"
         },
         {
             "name": "COSMOS - Space Website",
@@ -58,7 +58,7 @@
             "techStack": "HTML5, CSS3, Vanilla Javascript",
             "githubUrl": "https://github.com/Nikhil667/FetchSpace",
             "linkedUrl": "https://kaleidoscopic-squirrel-2b1aef.netlify.app/",
-            "imgUrl": "/"
+            "imgUrl": "./assets/solar.png"
         }
     ],
     "backendProjects": [
@@ -68,7 +68,7 @@
             "techStack": "NodeJs, ExpressJs, Firebase, Bootstrap5",
             "githubUrl": "https://github.com/Nikhil667/react-authentication-firebase-routing",
             "linkedUrl": "/",
-            "imgUrl": "/"
+            "imgUrl": "./assets/fire.png"
         },
         {
             "name": "BookBerry - Library App",
@@ -76,7 +76,7 @@
             "techStack": "NodeJs, ExpressJs, Bcrypt, Bootstrap5",
             "githubUrl": "https://github.com/Nikhil667/BookBerry",
             "linkedUrl": "/",
-            "imgUrl": "/"
+            "imgUrl": "./assets/lib.jpg"
         },
         {
             "name": "User Authentication App",
@@ -84,7 +84,7 @@
             "techStack": "NodeJs, ExpressJs, Bcrypt",
             "githubUrl": "https://github.com/Nikhil667/UserAuthentication",
             "linkedUrl": "/",
-            "imgUrl": "/"
+            "imgUrl": "./assets/user.jpg"
         },
         {
             "name": "JWT App",
@@ -92,7 +92,7 @@
             "techStack": "NodeJs, ExpressJs, Crypto",
             "githubUrl": "https://github.com/Nikhil667/JWT",
             "linkedUrl": "/",
-            "imgUrl": "/"
+            "imgUrl": "./assets/jwt.jpg"
         }   
     ]
 }
