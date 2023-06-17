@@ -2,7 +2,7 @@
 
     "Projects":[
         {
-            "name": "COSMOS - Space Website",
+            "name": "COSMOS - Space Website (Desktop Only)",
             "description": "The website aims to educate and inform its audience about the wonders of space and our Solar System",
             "techStack": "HTML5, CSS3, Vanilla Javascript",
             "githubUrl": "https://github.com/Nikhil667/FetchSpace",
