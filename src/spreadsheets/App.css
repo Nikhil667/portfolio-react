@@ -51,7 +51,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 a {
-  color: var(--secondary-color);
+  color: var(--primary-color);
   font-size: 16px;
 }
 
@@ -89,6 +89,7 @@ footer {
   color: inherit;
   border-top: 1px solid var(--border-color);
   background-color: var(--background-color);
+  margin-bottom: 1em;
 }
 
 footer .social {
@@ -100,4 +101,14 @@ footer .social {
 footer .social img {
   width: 2em;
   height: 2em;
+}
+
+@media (max-width: 1200px) {
+
+  footer {
+    display: flex;
+    justify-content: center;
+    gap: 0.5em;
+    text-align: center;
+  }
 }

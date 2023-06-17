@@ -135,11 +135,11 @@
     margin-left: 1em;
 }
 
-.circle {
+/* .circle {
     transition: all 2s ease;
     width: 100px;
     height: 100px;
-}
+} */
 
 /* .about-section{
     background-color: var(--primary-color);

@@ -47,7 +47,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section></section>
+      
 
       <section className="about-section">
         <div className="about-content">
