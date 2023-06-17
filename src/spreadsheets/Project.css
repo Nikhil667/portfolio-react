@@ -7,7 +7,17 @@
 .project-section .project-title{
     color: var(--tertiary-text-color);
     text-align: center;
-    font-style: italic;
+    /* font-style: italic; */
+    background: linear-gradient(
+    to right,
+    var(--primary-color),
+    var(--secondary-color)
+    );
+    color: white;
+    padding-block: 0.4rem;
+    width: 60%;
+    margin: 0 auto;
+    letter-spacing: 2px;
 }
 
 .project-content{    
@@ -29,7 +39,7 @@
     display: grid;
     grid-template-rows: repeat(auto-fit, minmax( min(var(--min-row-size), 100%), 1fr));
     grid-template-columns: repeat(auto-fill, var(--min-column-size));
-    gap: 2em;
+    gap: 4em;
     place-content: center;
 }
 
@@ -40,11 +50,12 @@
 }
 
 .card{
-    background-color: var(--background-color);
-    border: 1px solid var(--border-color);
+    background-color: rgb(12, 5, 34);
+    border: 1px solid var(--border-color); 
     border-radius: var(--border-radius);
-    padding: 0.5em;
     gap: 1em;
+    position: relative;
+    color: rgb(222, 222, 222);
 }
 
 .card img{
@@ -55,7 +66,15 @@
 
 .card-item{
     gap: 0.6em;
+    padding: 0.6em;
 }
+
+.hide {
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    display: -webkit-box;
+    overflow: hidden;
+  }
 
 .card-item a{
     margin-right: 1em;
@@ -63,4 +82,21 @@
 
 .secondary-color{
     color: var(--secondary-text-color);
+}
+
+.card-item .btn{
+    background-color: rgb(227, 218, 218);
+    width: 30%;
+    margin-left: auto;
+    font-family: "Raleway", system-ui;
+    font-weight: 500;
+    font-size: 0.7rem;
+    border-radius: 20px;
+    padding-block: 0.125rem;
+    margin-bottom: 0.5rem;
+}
+
+.card-item .btn:hover{
+    background-color: var(--secondary-color);
+    cursor: pointer;
 }

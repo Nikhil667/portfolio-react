@@ -11,7 +11,7 @@ export default function Navbar() {
 
   return (
     <nav className='nav'>
-        <Link to="/"><span className='site-logo'>Nikhil.</span></Link>
+        <Link to="/"><p className='site-logo'>Nikhil.</p></Link>
         <ul>
             <CustomLink to="/project">Projects</CustomLink>
             <CustomLink to="/blog">Blogs</CustomLink>

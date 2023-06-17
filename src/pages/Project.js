@@ -11,7 +11,7 @@ export default function Project() {
         <p>From concept to deployment, delivering customized web solutions.
         </p>
       </div>
-      <p className="project-title bold">"Frontend Projects"</p>
+      <p className="project-title bold">Frontend Projects</p>
       <div className="parent-grid">
         <div className="auto-grid">
           {data.frontendProjects.map((ele, index) => {
@@ -19,7 +19,7 @@ export default function Project() {
           })}
         </div>
       </div>
-      <p className="project-title bold">"Backend Projects"</p>
+      <p className="project-title bold">Backend Projects</p>
       <div className="parent-grid">
         <div className="auto-grid">
           {data.backendProjects.map((ele, index) => {
@@ -27,7 +27,7 @@ export default function Project() {
           })}
         </div>
       </div>
-      <p className="project-title bold">"Full Stack Project"</p>
+      <p className="project-title bold">Full Stack Project</p>
       <div className="parent-grid">
         <div className="auto-grid">
           {data.fullStackProjects.map((ele, index) => {

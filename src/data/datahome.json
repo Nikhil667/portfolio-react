@@ -1,0 +1,38 @@
+{
+
+    "Projects":[
+        {
+            "name": "COSMOS - Space Website",
+            "description": "The website aims to educate and inform its audience about the wonders of space and our Solar System",
+            "techStack": "HTML5, CSS3, Vanilla Javascript",
+            "githubUrl": "https://github.com/Nikhil667/FetchSpace",
+            "linkedUrl": "https://solar-system-vanila.netlify.app",
+            "imgUrl": "./assets/solar.jpg"
+        },
+        {
+            "name": "Burger Ordering App (Only For Mobile)",
+            "description": "An application that allows users to order their favorite burgers from a menu provided by a restaurant. Users can browse the menu, select their desired items, and make payments through the app by scanning the QRCode",
+            "techStack": "HTML5, Vanilla Javascript, CSS(Grid, Flex)",
+            "githubUrl": "https://github.com/Nikhil667/Project-Split",
+            "linkedUrl": "https://delhi-burger.netlify.app/",
+            "imgUrl": "./assets/burger.jpg"
+        },
+        {
+            "name": "E-Commerce Website",
+            "description": "It is an online platform that offers a wide range of electronic gadgets and accessories. It provides a convenient and user-friendly interface for customers to browse, select, and purchase products online",
+            "techStack": "ReactJs, Bootstrap5, NodeJs, ExpressJs, Auth(including Google Auth), Stripe(Payment)",
+            "githubUrl": "https://github.com/Nikhil667/frontend-full-stack",
+            "githubUrlBackend": "https://github.com/Nikhil667/full-stack-app",
+            "linkedUrl": "https://new-gen-ecom.netlify.app/",
+            "imgUrl": "./assets/ecom.jpg"
+        },
+        {
+            "name": "BookBerry - Library App",
+            "description": "A library app with book and author management capabilities allows users to add new books to the library's collection and retrieve information about existing books and their authors. Users can search for books by title, author, or category, and view details such as publication date, summary, and reviews.",
+            "techStack": "NodeJs, ExpressJs, Bcrypt, Bootstrap5",
+            "githubUrl": "https://github.com/Nikhil667/BookBerry",
+            "linkedUrl": "https://bookberry.onrender.com/",
+            "imgUrl": "./assets/lib.jpg"
+        }
+    ]
+}

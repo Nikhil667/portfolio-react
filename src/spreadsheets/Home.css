@@ -1,4 +1,4 @@
-.home-section {
+/* .home-section {
     display: flex;
     flex-direction: column;
     padding: 2em;
@@ -47,13 +47,8 @@
     gap: 1em;
 } */
 
-.home-content {
-    text-align: left;
-    display: flex;
-    flex-direction: column;
-    gap: 2em;
-}
 
+/*
 .home-resume p{
     margin-bottom: 0.5em;
 }
@@ -64,7 +59,7 @@
 
 .home-subtitle{
     font-size: 1.5rem;
-}
+} */
 
 /* #blob {
     background-color: white;
@@ -90,7 +85,7 @@
     z-index: -1;
     backdrop-filter: blur(8vmax);
   } */
-
+/* 
   @keyframes rotate {
     from {
       rotate: 0deg;
@@ -103,5 +98,67 @@
     to {
       rotate: 360deg;
     }
-  }
+  } */
 
+.home-section{
+    height: 100dvh;
+}
+
+.home-section{
+    background-color: var(--background-color);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-content {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.home-content h1{
+    background: url("../assets/giphy.gif");
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: clamp(2.8rem, 4vw, 10rem);
+    font-weight: 800;
+    margin-bottom: 1em;
+    width: 80%;
+    padding-left: 2em;
+}
+
+.wrapper2{
+    margin-left: 1em;
+}
+
+.circle {
+    transition: all 2s ease;
+    width: 100px;
+    height: 100px;
+}
+
+/* .about-section{
+    background-color: var(--primary-color);
+} */
+
+.about-section .about-content{
+    text-align: center;
+    margin-bottom: 1.2em;
+}
+
+.about-section .about-content h2{
+    margin-top: 2em;
+}
+
+@media (max-width: 1200px) {
+
+    .home-content h1{
+        width: 100%;
+        padding: 0.2em;
+        margin-bottom: 0.4em;
+    }
+}
