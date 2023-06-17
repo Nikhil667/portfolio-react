@@ -1,6 +1,5 @@
 import React from 'react'
 import '../spreadsheets/Home.css'
-import '../javascripts/circle.js';
 import Card from '../components/Card'
 import datahome from '../data/datahome.json';
 import gif from '../assets/full-stack-development.gif'
