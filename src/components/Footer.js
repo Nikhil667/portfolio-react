@@ -28,7 +28,7 @@ export default function Footer() {
         <a href="https://www.linkedin.com/in/nikhil-mimroth/">
           <img src={linked} alt="linkedIn" />
         </a>
-        <Link onClick={downloadPDF} >Resume</Link>
+        <Link  onClick={downloadPDF} >Resume</Link>
       </div>
       <p className="secondary-color">
         Created By <a href="https://github.com/Nikhil667">Nikhil Mimroth.</a>
